@@ -92,11 +92,18 @@ const Header = ({ location }) => {
               {headerLink.label}
             </HeaderLink>
           ))}
+          <HeaderLink
+              onClick={OpenBlog}
+            >
+              Blog
+          </HeaderLink>
         </HeaderLinkGroup>
         <GithubLink />
       </HeaderNav>
     </HeaderWrapper>
   )
 }
-
+function OpenBlog(){
+  window.location="https://abhikmitra.github.io/blog"
+}
 export default Header

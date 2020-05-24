@@ -1,6 +1,6 @@
 module.exports = {
   siteTitle: 'Hi! I\'m Abhik!',
-  siteDescription: `Create your online curriculum in just a few minutes with this starter`,
+  siteDescription: `Resume of Abhik Mitra, Senior Software Engineering Manager at Microsoft`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
   authorName: 'Abhik Mitra',
   twitterUsername: 'complancoder',
@@ -94,10 +94,6 @@ module.exports = {
     {
       label: 'Home',
       url: '/',
-    },
-    {
-      label: 'Blog',
-      url: '/blog',
     }
   ]
 }
