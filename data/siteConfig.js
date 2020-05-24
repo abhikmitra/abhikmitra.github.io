@@ -74,17 +74,7 @@ module.exports = {
     },
   ],
   portifolio: [
-    {
-      image: "/images/gatsby-starter-cv.png",
-      description: "Gatsby starter CV temsplate",
-      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
-    },
-    {
-      image: "/images/awesome-grid.png",
-      description: "Responsive grid for ReactJS",
-      url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
-    },
-    /* more portifolio items here */
+
   ],
   social: {
     twitter: "https://twitter.com/complancoder",
@@ -107,7 +97,7 @@ module.exports = {
     },
     {
       label: 'Blog',
-      url: '/Blog',
+      url: '/blog',
     }
   ]
 }
