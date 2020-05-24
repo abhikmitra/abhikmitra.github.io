@@ -1,89 +1,82 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Francisco!',
+  siteTitle: 'Hi! I\'m Abhik!',
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
-  authorName: 'Francisco Santos',
-  twitterUsername: '_franciscodf',
-  githubUsername: 'santosfrancisco',
+  authorName: 'Abhik Mitra',
+  twitterUsername: 'complancoder',
+  githubUsername: 'abhikmitra',
   authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-    In 2012 I started working as a support technician and I approached the developers.
-    In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
-    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
+  authorDescription: `Senior Software Engineering Manager with almost 9 years of hands-on experience building performance-critical complex software applications.
+   <br/> I am currently working with Microsoft as an engineering leader. My experience spans 
+   <strong> backend, frontend, and mobile </strong>. As a part of Microsoft, I had the privilege to work across iconic products like 
+   Bing Ads, Microsoft Outlook, and Microsoft Teams. 
+   <br/>I have worked on Android, built large scale React apps and <strong> currently building Web-scale Distributed Systems</strong>`,
   skills: [
     {
-      name: 'HTML',
+      name: 'Distributed Systems',
       level: 70
     },
     {
-      name: 'CSS',
-      level: 60
-    },
-    {
-      name: 'Javascript',
-      level: 50
-    },
-    {
-      name: 'NodeJs',
-      level: 40
-    },
-    {
-      name: 'React',
-      level: 60
-    },
-    {
-      name: 'Git',
+      name: 'Frontend Engineering',
       level: 70
     },
+    {
+      name: 'Android Development',
+      level: 60
+    },
+    {
+      name: 'Engineering Management',
+      level: 55
+    }
     /* more skills here */
   ],
   jobs: [
     /* more portifolio items here */
     {
-      company: "Gympass",
+      company: "Microsoft",
       begin: {
-        month: 'sep',
-        year: '2019'
-      },
-      duration: null,
-      occupation: "Frontend developer",
-      description: "I am part of the Corporate team, responsible for the development and maintenance of the employee management platform, giving more and more autonomy to partner companies."
-  
-    },  {
-      company: "Lendico",
-      begin: {
-        month: 'apr',
+        month: 'may',
         year: '2018'
       },
       duration: null,
-      occupation: "Frontend developer",
-      description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
+      occupation: "Senior Software Engineering Manager",
+      description: " I lead the data layer effort of Microsoft Teams , which is based on Cosmos DB and Azure and has elaborate measures to handle data in a scalable and compliant way"
+  
+    },  {
+      company: "Microsoft",
+      begin: {
+        month: 'Jan',
+        year: '2015'
+      },
+      duration: '3 yr , 5 months',
+      occupation: "Software Engineer",
+      description: "I have worked on products like Microsoft Outlook for Android and Microsoft Teams. I have shipped features in Android which is being used by millions of people. I built a React platform in Microsoft Teams web app that powers some of the features that you see in Microsoft Teams."
   
     }, {
-      company: "Anapro",
+      company: "Flipkart",
       begin: {
-        month: 'dec',
-        year: '2016'
+        month: 'Jul',
+        year: '2013'
       },
-      duration: '1 yr e 5 mos',
-      occupation: "Fullstack developer",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
+      duration: '1 yr, 6 months',
+      occupation: "Software Engineer",
+      description: "Built the Seller Platform which was the marketplace section of Flipkart. Tools of the trade were Node Js, Angular JS , Rabbit MQ , etc"
     }, {
-      company: "Anapro",
+      company: "Infosys",
       begin: {
-        month: 'set',
-        year: '2012'
+        month: 'Aug',
+        year: '2011'
       },
-      duration: '4 yrs e 3 mos',
-      occupation: "Support Technician",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
+      duration: '1 yr, 10 months',
+      occupation: "Systems Engineer",
+      description: "I used to work at Infosys Labs building an Indoor mapping System using wifi triangulation.Worked on building the indoor maps feature and mobile tracker in Android."
   
     },
   ],
   portifolio: [
     {
       image: "/images/gatsby-starter-cv.png",
-      description: "Gatsby starter CV template",
+      description: "Gatsby starter CV temsplate",
       url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
     },
     {
@@ -94,15 +87,15 @@ module.exports = {
     /* more portifolio items here */
   ],
   social: {
-    twitter: "https://twitter.com/_franciscodf",
-    linkedin: "https://www.linkedin.com/in/santos-francisco",
-    github: "https://github.com/santosfrancisco",
-    email: "yoshi.df@gmail.com"
+    twitter: "https://twitter.com/complancoder",
+    linkedin: "https://www.linkedin.com/in/iamabhik/",
+    github: "https://github.com/abhikmitra",
+    email: "abhikprince@gmail.com"
   },
-  siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
-  pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
+  siteUrl: 'https://abhikmitra.github.io',
+  pathPrefix: '', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
-  googleAnalyticsId: 'UA-000000000-1',
+  googleAnalyticsId: 'UA-164581916-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
   display: 'minimal-ui',
@@ -113,8 +106,8 @@ module.exports = {
       url: '/',
     },
     {
-      label: 'Portifolio',
-      url: '/portifolio',
+      label: 'Blog',
+      url: '/Blog',
     }
   ]
 }
