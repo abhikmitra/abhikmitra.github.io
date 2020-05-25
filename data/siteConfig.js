@@ -10,11 +10,14 @@ module.exports = {
    <br/> I am currently working with Microsoft as an engineering leader. My experience spans 
    <strong> backend, frontend, and mobile </strong>. As a part of Microsoft, I had the privilege to work across iconic products like 
    Bing Ads, Microsoft Outlook, and Microsoft Teams. 
-   <br/>I have worked on Android, built large scale React apps and <strong> currently building Web-scale Distributed Systems</strong>`,
+   <br/>I have worked on Android, built large scale React apps and <strong> currently building Web-scale Distributed Systems</strong>.
+   <br/>
+   I have a <a href="https://abhikmitra.github.io/blog/" target="_blank"> blog </a> where I keep writing on tech that interest me,
+   `,
   skills: [
     {
       name: 'Distributed Systems',
-      level: 70
+      level: 75
     },
     {
       name: 'Frontend Engineering',
@@ -23,6 +26,14 @@ module.exports = {
     {
       name: 'Android Development',
       level: 60
+    },
+    {
+      name: 'Cloud Development using Azure',
+      level: 65
+    },
+    {
+      name: 'MEAN stack',
+      level: 70
     },
     {
       name: 'Engineering Management',
