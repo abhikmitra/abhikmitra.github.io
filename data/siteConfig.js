@@ -12,7 +12,7 @@ module.exports = {
    Bing Ads, Microsoft Outlook, and Microsoft Teams. 
    <br/>I have worked on Android, built large scale React apps and <strong> currently building Web-scale Distributed Systems</strong>.
    <br/>
-   I have a <a href="https://abhikmitra.github.io/blog/" target="_blank"> blog </a> where I keep writing on tech that interest me,
+   I have a <a href="https://abhikmitra.github.io/blog/" target="_blank"> blog </a> where I keep writing on tech that interests me,
    `,
   skills: [
     {
